@@ -1,38 +1,64 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ウェブサイトのタイトル</title>
-    <link rel="stylesheet" href="styles.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>多機能ウェブサイト</title>
+<style>
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .company-name {
+    font-weight: bold;
+    font-size: 24px;
+  }
+  
+  .header-links {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .header-links li {
+    margin-left: 20px;
+  }
+  
+  .header-links li:first-child {
+    margin-left: 0;
+  }
+  
+  .header-links a {
+    color: #fff;
+    text-decoration: none;
+  }
+</style>
 </head>
 <body>
-    <header>
-        <h1>ウェブサイトのタイトル</h1>
-        <nav>
-            <ul>
-                <li><a href="#">企業概要</a></li>
-                <li><a href="#">コンテンツ</a></li>
-                <li><a href="#">アクセス</a></li>
-                <li><a href="#">連絡はこちらから</a></li>
-            </ul>
-        </nav>
-    </header>
 
-    <main>
-        <section>
-            <h2>セクション1</h2>
-            <p>ここにセクション1のコンテンツが入ります。</p>
-        </section>
+<header>
+  <div class="company-name">会社名</div>
+  <ul class="header-links">
+    <li><a href="#">企業概要</a></li>
+    <li><a href="#">コンテンツ</a></li>
+    <li><a href="#">アクセス</a></li>
+    <li><a href="#">連絡はこちらから</a></li>
+  </ul>
+</header>
 
-        <section>
-            <h2>セクション2</h2>
-            <p>ここにセクション2のコンテンツが入ります。</p>
-        </section>
-    </main>
+<!-- ここにコンテンツを追加 -->
 
-    <footer>
-        <p>&copy; 2024 ウェブサイトのタイトル</p>
-    </footer>
 </body>
 </html>
